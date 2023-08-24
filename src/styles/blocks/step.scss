@@ -78,17 +78,27 @@ $step3-color1: #55CE00;  $step3-color2: #014D1D;
         content: '';
         display: block;
         position: absolute;
-        top: 50%;
+        top: 30%;
         right: -50px;
         background-image: url(../../images/arrow.svg);
         background-repeat: no-repeat;
         width: 92px;
         height: 40px;
         z-index: 1;
+
+        @media screen and (max-width: 1320px) {
+            transform: scale(-1, 1) rotate(90deg);
+            top: 95%;
+            right: -30px;
+        }
     }
 
     &:last-child:after {
         display: none;
+    }
+
+    @media screen and (max-width: 1320px) {
+        width: 328px;
     }
 }
 
