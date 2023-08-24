@@ -79,11 +79,16 @@ $step3-color1: #55CE00;  $step3-color2: #014D1D;
         display: block;
         position: absolute;
         top: 50%;
-        right: 0;
+        right: -50px;
         background-image: url(../../images/arrow.svg);
         background-repeat: no-repeat;
         width: 92px;
         height: 40px;
+        z-index: 1;
+    }
+
+    &:last-child:after {
+        display: none;
     }
 }
 
