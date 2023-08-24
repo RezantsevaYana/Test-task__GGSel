@@ -1,0 +1,24 @@
+{
+  "name": "test-task__ggsel",
+  "version": "1.0.0",
+  "description": "test task",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Yana Ivleva",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.29.3",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-sass": "^5.1.0"
+  },
+  "dependencies": {
+    "clear": "^0.1.0",
+    "del": "^7.0.0",
+    "gulp-changed": "^4.0.3",
+    "gulp-imagemin": "^8.0.0",
+    "sass": "^1.66.1"
+  }
+}

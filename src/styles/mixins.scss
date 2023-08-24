@@ -1,0 +1,11 @@
+@mixin margin($step: 4, $max: 80) {
+    @for $i from 1 to $max / $step {
+      $margin-value: $i * $step;
+  
+      .m-#{$i} {
+        margin: $margin-value + px;
+      }
+    }
+}
+  
+  
