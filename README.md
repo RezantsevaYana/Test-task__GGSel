@@ -1,4 +1,3 @@
-запуск:  
 git clone  
 npm install  
 запуск:   
