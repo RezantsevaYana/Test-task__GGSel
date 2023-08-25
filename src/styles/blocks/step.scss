@@ -1,6 +1,7 @@
 $step1-color1: #6377E1;  $step1-color2: #2920A5;
 $step2-color1: #E163E1;  $step2-color2: #741595;
 $step3-color1: #55CE00;  $step3-color2: #014D1D;
+$defolt-color: rgba(107, 125, 222, 0.12);
 
 
 .step {
@@ -33,15 +34,15 @@ $step3-color1: #55CE00;  $step3-color2: #014D1D;
     }
 
     &__1 {
-        background: linear-gradient(180deg, rgba(107, 125, 222, 0.12) 0%, $step1-color2 100%);
+        background: linear-gradient(180deg, $defolt-color 0%, $step1-color2 100%);
     }
 
     &__2 {
-        background: linear-gradient(180deg, rgba(107, 125, 222, 0.12) 0%, $step2-color2 100%);
+        background: linear-gradient(180deg, $defolt-color 0%, $step2-color2 100%);
     }
 
     &__3 {
-        background: linear-gradient(180deg, rgba(107, 125, 222, 0.12) 0%, $step3-color2 100%);
+        background: linear-gradient(180deg, $defolt-color 0%, $step3-color2 100%);
     }
 
     &__title-container {
