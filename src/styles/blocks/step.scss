@@ -10,17 +10,38 @@ $step3-color1: #55CE00;  $step3-color2: #014D1D;
     height: 352px;
     flex-shrink: 0;
     position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &__container {
+        width: 98%;
+        height: 98%;
+        border-radius: 20px;
+
+        &_1 {
+            background: linear-gradient(180deg, $step1-color1 0%, $step1-color2 100%);
+        }
+
+        &_2 {
+            background: linear-gradient(180deg, $step2-color1 0%, $step2-color2 100%);
+        }
+    
+        &_3 {
+            background: linear-gradient(180deg, $step3-color1 0%, $step3-color2 100%);
+        }
+    }
 
     &__1 {
-        background: linear-gradient(180deg, $step1-color1 0%, $step1-color2 100%);
+        background: linear-gradient(180deg, rgba(107, 125, 222, 0.12) 0%, $step1-color2 100%);
     }
 
     &__2 {
-        background: linear-gradient(180deg, $step2-color1 0%, $step2-color2 100%);
+        background: linear-gradient(180deg, rgba(107, 125, 222, 0.12) 0%, $step2-color2 100%);
     }
 
     &__3 {
-        background: linear-gradient(180deg, $step3-color1 0%, $step3-color2 100%);
+        background: linear-gradient(180deg, rgba(107, 125, 222, 0.12) 0%, $step3-color2 100%);
     }
 
     &__title-container {
